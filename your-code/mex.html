@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a8c753514284557a3d612ab578df41f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4a8c753514284557a3d612ab578df41f" ></div>
+        
+</body>
+<script>    
+    
+            var map_4a8c753514284557a3d612ab578df41f = L.map(
+                "map_4a8c753514284557a3d612ab578df41f",
+                {
+                    center: [46.3735901, -116.5059894],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3.46,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_551f01c3a2e1415a941b8bd892a601dd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var marker_7a2e99b2808844f8bce87af21a73f39b = L.marker(
+                [19.38, -155.2],
+                {"fillColor": "#3db7e4"}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var icon_8ff8d154c0b34be9add6d1d76eaec628 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a2e99b2808844f8bce87af21a73f39b.setIcon(icon_8ff8d154c0b34be9add6d1d76eaec628);
+        
+    
+        var popup_82253e8d8fcc4697ac0e2a855e3ad3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c57d1573e4f8468a94d1d71fc4b0b6f6 = $(`<div id="html_c57d1573e4f8468a94d1d71fc4b0b6f6" style="width: 100.0%; height: 100.0%;">Hawaii Volcanoes National Park</div>`)[0];
+            popup_82253e8d8fcc4697ac0e2a855e3ad3a0.setContent(html_c57d1573e4f8468a94d1d71fc4b0b6f6);
+        
+
+        marker_7a2e99b2808844f8bce87af21a73f39b.bindPopup(popup_82253e8d8fcc4697ac0e2a855e3ad3a0)
+        ;
+
+        
+    
+    
+            var marker_0b8ec27179674da1be209dbb79f8cd87 = L.marker(
+                [20.72, -156.17],
+                {"fillColor": "#3db7e4"}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var icon_0f69437c9469442b9acda2cbd596e112 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b8ec27179674da1be209dbb79f8cd87.setIcon(icon_0f69437c9469442b9acda2cbd596e112);
+        
+    
+        var popup_717d161b518648408adb47a88718eee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939ca3bc37f146ac9ee3917d50c01b57 = $(`<div id="html_939ca3bc37f146ac9ee3917d50c01b57" style="width: 100.0%; height: 100.0%;">Haleakala National Park</div>`)[0];
+            popup_717d161b518648408adb47a88718eee2.setContent(html_939ca3bc37f146ac9ee3917d50c01b57);
+        
+
+        marker_0b8ec27179674da1be209dbb79f8cd87.bindPopup(popup_717d161b518648408adb47a88718eee2)
+        ;
+
+        
+    
+    
+            var marker_3a272f038bb04e96abcff71b410da900 = L.marker(
+                [34.01, -119.42],
+                {"fillColor": "#3db7e4"}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var icon_ea0dae0ae3d94d9c8be061de9c2a3683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a272f038bb04e96abcff71b410da900.setIcon(icon_ea0dae0ae3d94d9c8be061de9c2a3683);
+        
+    
+        var popup_6e48a5045c814829afcf7bedf6120b2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ac7f7c4fcfd4ff98cde1489a46a21cf = $(`<div id="html_7ac7f7c4fcfd4ff98cde1489a46a21cf" style="width: 100.0%; height: 100.0%;">Channel Islands National Park</div>`)[0];
+            popup_6e48a5045c814829afcf7bedf6120b2c.setContent(html_7ac7f7c4fcfd4ff98cde1489a46a21cf);
+        
+
+        marker_3a272f038bb04e96abcff71b410da900.bindPopup(popup_6e48a5045c814829afcf7bedf6120b2c)
+        ;
+
+        
+    
+    
+            var marker_e301f2e49d0b417487d50c0e9c266bf5 = L.marker(
+                [36.24, -116.82],
+                {"fillColor": "#3db7e4"}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var icon_d7eccdfd4223473697e836606f44f0b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e301f2e49d0b417487d50c0e9c266bf5.setIcon(icon_d7eccdfd4223473697e836606f44f0b8);
+        
+    
+        var popup_6f48f948ddc14eec8c8e6d66f63f66b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_094774349e034469af221b21f29cb9f5 = $(`<div id="html_094774349e034469af221b21f29cb9f5" style="width: 100.0%; height: 100.0%;">Death Valley National Park</div>`)[0];
+            popup_6f48f948ddc14eec8c8e6d66f63f66b9.setContent(html_094774349e034469af221b21f29cb9f5);
+        
+
+        marker_e301f2e49d0b417487d50c0e9c266bf5.bindPopup(popup_6f48f948ddc14eec8c8e6d66f63f66b9)
+        ;
+
+        
+    
+    
+            var marker_4ac818c8cb314879ad79d53b19dd038d = L.marker(
+                [41.3, -124.0],
+                {"fillColor": "#3db7e4"}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var icon_a450d97ad6c14c6e904384b44429933c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ac818c8cb314879ad79d53b19dd038d.setIcon(icon_a450d97ad6c14c6e904384b44429933c);
+        
+    
+        var popup_09763bdedfe14ab59e622f13e161206f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e474bcfdb6b4e56acdf28e2aa3b82a4 = $(`<div id="html_4e474bcfdb6b4e56acdf28e2aa3b82a4" style="width: 100.0%; height: 100.0%;">Redwood National Park</div>`)[0];
+            popup_09763bdedfe14ab59e622f13e161206f.setContent(html_4e474bcfdb6b4e56acdf28e2aa3b82a4);
+        
+
+        marker_4ac818c8cb314879ad79d53b19dd038d.bindPopup(popup_09763bdedfe14ab59e622f13e161206f)
+        ;
+
+        
+    
+    
+            var marker_c1cb96042f7d462281b62e88e06b5031 = L.marker(
+                [25.32, -80.93],
+                {"fillColor": "#3db7e4"}
+            ).addTo(map_4a8c753514284557a3d612ab578df41f);
+        
+    
+            var icon_abe6477a63cb4742b21e7a9f301f7ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1cb96042f7d462281b62e88e06b5031.setIcon(icon_abe6477a63cb4742b21e7a9f301f7ea3);
+        
+    
+        var popup_7e97fb133d6f4dd68bfa50ebc3cb5a6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a86f485f15454085910d55c0f5af0ee7 = $(`<div id="html_a86f485f15454085910d55c0f5af0ee7" style="width: 100.0%; height: 100.0%;">Everglades National Park</div>`)[0];
+            popup_7e97fb133d6f4dd68bfa50ebc3cb5a6f.setContent(html_a86f485f15454085910d55c0f5af0ee7);
+        
+
+        marker_c1cb96042f7d462281b62e88e06b5031.bindPopup(popup_7e97fb133d6f4dd68bfa50ebc3cb5a6f)
+        ;
+
+        
+    
+</script>
